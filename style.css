@@ -9,6 +9,10 @@
 
 body{
 	position:relative;
+	background-image: linear-gradient(
+		to right, 
+		#999999,#CCCCCC
+	);
 }
 
 /*Map Section*/
@@ -16,7 +20,6 @@ body{
 .map-section{
 	display:inline-block;
 	text-align: center;
-	background-color: #EEEEEE;
 }
 .map-section h1{
 	padding-top:3rem;
@@ -26,6 +29,8 @@ body{
 }
 
 .map-section h3{
+	width:70%;
+	margin:auto;
 	margin-bottom:3rem;
 	font-size: 20px;
 	color: #333333;
@@ -44,7 +49,6 @@ body{
 	grid-template-rows: 1fr 1fr;
 	grid-template-columns: 60% 40%;
 	height:600px;
-	background:#EEEEEE;
 }
 
 /*Profile image section*/
@@ -74,12 +78,19 @@ body{
 
 .about-me-section{
 	align-self:center;
-	justify-self:stretch;
+	justify-self:center;
 	grid-column: 2/2;
 	grid-row:2/2;
 	color:black;
+	border: 15px solid #333333;
+	border-style: inset;
+	border-radius: 33%;
+	padding:15px;
 }
 
+.about-me-section table{
+	margin:0 auto;
+}
 
 .about-me-section table td{
 	padding-left:15px;
@@ -97,10 +108,38 @@ body{
 .vision-section h3{
 	font-size: 55px;
 	margin-top:16px;
-	margin-bottom:16px;
+	margin-bottom:24px;
 }
 
 .vision-section h4{
-	width: 80%;
+	padding-right:45px;
+}
+
+@media screen and (max-width:950px){
+	.my-profile{
+		display:flex;
+		flex-direction:column;
+		text-align:center;
+	}
+
+	.about-me-section table{
+		border-radius: 25%;
+	}
+
+	.image-section figcaption{
+		margin-bottom:25px;
+	}
+	
+	.vision-section h4{
+		padding:35px;
+	}
+}
+
+@media screen and (max-width:350px){
+	#map{
+		width:50%;
+		height:50%;
+
+	}
 }
 

@@ -1,0 +1,106 @@
+/*Universal Styles*/
+
+* {
+	margin:0px;
+	padding:0px;
+	font-family: 'Merriweather Sans', sans-serif;
+	line-height:1.2;
+}
+
+body{
+	position:relative;
+}
+
+/*Map Section*/
+
+.map-section{
+	display:inline-block;
+	text-align: center;
+	background-color: #EEEEEE;
+}
+.map-section h1{
+	padding-top:3rem;
+	margin-bottom:3rem;
+	font-size: 60px;
+	color: #333333;
+}
+
+.map-section h3{
+	margin-bottom:3rem;
+	font-size: 20px;
+	color: #333333;
+}
+
+#map{
+	width:100%;
+	height:100vh;
+}
+
+/* Profile section*/
+
+.my-profile{
+	padding-top:50px;
+	display:grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 60% 40%;
+	height:600px;
+	background:#EEEEEE;
+}
+
+/*Profile image section*/
+
+.image-section{
+	grid-column: 1/2;
+	grid-row:1/3;
+}
+
+.image-section img{
+	padding:25px;
+	padding-bottom: 5px;
+	display:block;
+	margin:0px auto;
+	height:100%;
+	width:80%;
+}
+
+.image-section figcaption{
+	text-align: center;
+	font-style: italic;
+	font-size: 14px;
+}
+
+
+/*Profile about-me section*/
+
+.about-me-section{
+	align-self:center;
+	justify-self:stretch;
+	grid-column: 2/2;
+	grid-row:2/2;
+	color:black;
+}
+
+
+.about-me-section table td{
+	padding-left:15px;
+}
+
+/*Profile vision section*/
+
+
+.vision-section{
+	font-size:16px;
+	grid-column: 2/2;
+	grid-row:1/2;
+}
+
+.vision-section h3{
+	font-size: 55px;
+	margin-top:16px;
+	margin-bottom:16px;
+}
+
+.vision-section h4{
+	width: 80%;
+}
+

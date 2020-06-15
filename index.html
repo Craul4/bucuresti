@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bucureștiul în culori</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap" rel="stylesheet">
+	<link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+
+<body>
+	<section class="map-section">
+		<h1>Bucureștiul în culori</h1>
+		<h3>Bucureștiul, asemenea multor orașe din România, este văzut ca un oraș 
+				predominant gri și mohorât. De aceea, am hotărât să-l colorăm noi în 
+				viile culori ale curcubeului</h3>
+	</section>
+
+		<div id="map"></div>
+			<script>
+		 		function initMap() {
+					var bucuresti = {lat: 44.439663, lng: 26.096306};
+					var map = new google.maps.Map(
+						document.getElementById('map'), {zoom: 11, center:bucuresti});
+					}
+			</script>
+
+			<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOxz-UFt4SfMFQOGazTxqh54hR_KKYlLg&callback=initMap">
+			</script>
+
+
+	<section class="my-profile">
+
+		<div class="image-section">
+			<figure>
+				<img src="https://scontent-otp1-1.xx.fbcdn.net/v/t1.0-0/p640x640/73064564_2360784457352364_4680150026213654528_o.jpg?_nc_cat=110&_nc_sid=8024bb&_nc_ohc=02_1Od93y8MAX81BUuV&_nc_ht=scontent-otp1-1.xx&_nc_tp=6&oh=e0b88ec7c4dbca3d3181f264c58405d4&oe=5F0EB469">
+				<figcaption>Raul in culori</figcaption>
+			</figure>
+		</div>
+		<div class="about-me-section">
+			<table>
+					<tr>
+						<th><i class="fa fa-user-o fa-2x" ></th>
+						<td>Raul Culda</td>
+					</tr>
+					<tr>
+						<th><i class="fa fa-birthday-cake fa-2x"></th>
+						<td>24 Ani</td>
+					</tr>
+					<tr>
+						<th><i class="fa fa-at fa-2x	"></th>
+						<td>culda.raul4@gmail.com</td>
+					</tr>
+					<tr>
+						<th><i class="fa fa-phone fa-2x"></th>
+						<td>0725758138</td>
+					</tr>
+			</table>
+		</div>
+		<div class="vision-section">
+			<h3>Viziunea mea</h3>
+			<h4>Sunt un om pasionat de arta, psihologie si tehnologie. Viziunea mea e sa le pot imbina pe toate
+				acestea si sa contribui semnificativ comunitatii in care traiesc.<br><br> Vad un viitor in care AI inlocuieste cu 
+				succes muncile de jos, omul ocupandu-se doar de mentenanta acestor roboti. Cam asta e viziunea mea asupra lumii
+				si imi doresc sa contribui cat de mult pot in evolutia tehnologiei.<br><br>
+				Pe langa tehnologie, am o pasiune pentru arta. Cel mai mult imi place sa citesc, sa urc pe scena si 
+				sa scriu. Tot ce inseamna arta, de la pictura la filme ma binedispune si ma umple de energie.<h4>
+		</div>		
+	</section>
+</body>
+</html>

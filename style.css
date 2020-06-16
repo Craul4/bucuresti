@@ -7,11 +7,9 @@
 	line-height:1.2;
 }
 
-body{
-	position:relative;
-	background-image: linear-gradient(
-		265deg, 
-		#C5CFC6 60%,#333333
+html{
+	background-image: radial-gradient(
+		silver 50% ,#333333
 	);
 }
 
@@ -25,7 +23,7 @@ body{
 	padding-top:3rem;
 	margin-bottom:3rem;
 	font-size: 60px;
-	color: #333333;
+	color: black;
 }
 
 .map-section h3{
@@ -33,7 +31,7 @@ body{
 	margin:auto;
 	margin-bottom:3rem;
 	font-size: 20px;
-	color: #333333;
+	color: black;
 }
 
 #map{

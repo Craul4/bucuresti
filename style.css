@@ -23,7 +23,7 @@ html{
 	padding-top:3rem;
 	margin-bottom:3rem;
 	font-size: 60px;
-	color: black;
+	color: ghostwhite;
 }
 
 .map-section h3{
@@ -107,6 +107,7 @@ html{
 	font-size: 55px;
 	margin-top:16px;
 	margin-bottom:24px;
+	color:ghostwhite;
 }
 
 .vision-section h4{

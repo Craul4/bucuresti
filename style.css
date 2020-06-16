@@ -10,8 +10,8 @@
 body{
 	position:relative;
 	background-image: linear-gradient(
-		to right, 
-		#9D9D93,#C5CFC6
+		265deg, 
+		#C5CFC6 60%,#333333
 	);
 }
 

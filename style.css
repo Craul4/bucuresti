@@ -8,9 +8,7 @@
 }
 
 html{
-	background-image: radial-gradient(
-		silver 50% ,#333333
-	);
+	background:#dbdbdb;
 }
 
 /*Map Section*/
@@ -23,7 +21,7 @@ html{
 	padding-top:3rem;
 	margin-bottom:3rem;
 	font-size: 60px;
-	color: ghostwhite;
+	color: #323232;
 }
 
 .map-section h3{
@@ -31,7 +29,7 @@ html{
 	margin:auto;
 	margin-bottom:3rem;
 	font-size: 20px;
-	color: black;
+	color: #323232;
 }
 
 #map{
@@ -79,7 +77,7 @@ html{
 	justify-self:center;
 	grid-column: 2/2;
 	grid-row:2/2;
-	color:white;
+	color:#323232;
 	border: 15px solid #333333;
 	border-style: inset;
 	border-radius: 33%;
@@ -89,7 +87,7 @@ html{
 
 .about-me-section table{
 	margin:0 auto;
-	
+	color:black;
 }
 
 .about-me-section table td{
@@ -109,17 +107,19 @@ html{
 	font-size: 55px;
 	margin-top:16px;
 	margin-bottom:24px;
-	color:black;
+	color:#323232;
 }
 
 .vision-section h4{
 	padding-right:45px;
+	color:#323232;
 }
 
 @media screen and (max-width:950px){
 	.my-profile{
 		display:flex;
-		flex-direction:column;
+		flex-flow:row wrap;
+		justify-content:center;
 		text-align:center;
 	}
 
